@@ -1,0 +1,83 @@
+body {
+  background-color: #EAD0A1;
+  /* overflow-x: hidden; */
+  width: 748px;
+  color: #31373C;
+}
+
+p {
+  width: 294px;
+  font-family: 'Rubik';
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 13px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#logo {
+  /* position: sticky; */
+}
+
+.tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tree {
+  width: 250vw;
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1680px) {
+
+}
+
+@media screen and (max-width: 1920px) {
+
+}
