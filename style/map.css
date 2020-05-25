@@ -26,6 +26,25 @@ p {
   padding: 13px;
 }
 
+.menu_open {
+  background-color: rgba(201, 140, 111, 0.9);
+  display: flex;
+
+}
+
+#menu_open {
+  display: none;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu_text {
+  background-color: rgba(201, 140, 111, 0.9);
+  font-family: 'Prata';
+  font-size: 22px;
+  line-height: 37px;
+}
+
 .sticky {
   position: fixed;
   top: 0;

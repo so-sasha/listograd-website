@@ -18,3 +18,13 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+document.getElementById('menu').onclick = e => {
+  e.target.style.display = 'none';
+  document.getElementById('menu_open').style.display = 'block';
+}
+
+document.getElementById('menu_open').onclick = e => {
+  e.target.style.display = 'none';
+  document.getElementById('menu').style.display = 'block';
+}
