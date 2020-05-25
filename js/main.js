@@ -22,9 +22,15 @@ function myFunction() {
 document.getElementById('menu').onclick = e => {
   e.target.style.display = 'none';
   document.getElementById('menu_open').style.display = 'block';
+  document.querySelector('menu_text').style.display = 'block';
 }
 
 document.getElementById('menu_open').onclick = e => {
   e.target.style.display = 'none';
+  document.querySelector('menu_text').style.display = 'none';
   document.getElementById('menu').style.display = 'block';
+}
+
+document.getElementById('map').onclick = e => {
+  e.target.style.textDecorationStyle = 'line-through';
 }

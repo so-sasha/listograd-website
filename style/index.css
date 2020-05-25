@@ -13,10 +13,21 @@ p {
   text-align: center;
 }
 
+a {
+  color: #31373C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .header {
@@ -39,10 +50,13 @@ p {
 }
 
 .menu_text {
+  display: none;
   background-color: rgba(201, 140, 111, 0.9);
   font-family: 'Prata';
   font-size: 22px;
   line-height: 37px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 .sticky {
