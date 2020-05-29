@@ -2,6 +2,7 @@ body {
   background-color: #EAD0A1;
   /* overflow-x: hidden; */
   width: 748px;
+  height: 704px;
   color: #31373C;
 }
 
@@ -37,6 +38,10 @@ a:hover {
   padding: 13px;
 }
 
+#menu {
+  position: sticky;
+}
+
 .menu_open {
   background-color: rgba(201, 140, 111, 0.9);
   display: flex;
@@ -44,6 +49,7 @@ a:hover {
 }
 
 #menu_open {
+  position: sticky;
   display: none;
   justify-content: space-between;
   align-items: flex-start;
@@ -59,14 +65,14 @@ a:hover {
   padding-bottom: 3vh;
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%
-}
+} */
 
 #logo {
-  /* position: sticky; */
+  position: sticky;
 }
 
 .tree {
@@ -77,6 +83,24 @@ a:hover {
 
 #tree {
   width: 250vw;
+}
+
+#plane {
+  position: absolute;
+  left: 30vw;
+  top: 48vh;
+}
+
+#fern_shrub {
+  position: absolute;
+  left: 120vw;
+  top: 50vh;
+}
+
+#leaf_phisalis {
+  position: absolute;
+  left: 130vw;
+  top: 80vh;
 }
 
 @media screen and (max-width: 375px) {
