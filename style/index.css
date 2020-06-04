@@ -103,6 +103,12 @@ a:hover {
   top: 80vh;
 }
 
+#monstera {
+  position: absolute;
+  left: 50vw;
+  top: 95vh;
+}
+
 @media screen and (max-width: 375px) {
 
 }
