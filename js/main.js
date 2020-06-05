@@ -22,7 +22,11 @@
 document.getElementById('menu').onclick = e => {
   e.target.style.display = 'none';
   document.getElementById('menu_open').style.display = 'block';
-  document.querySelectorAll('menu_text').style.display = 'block';
+  document.getElementById('map').style.display = 'block';
+  document.getElementById('about').style.display = 'block';
+  document.getElementById('encyclopedia').style.display = 'block';
+  document.getElementById('shop').style.display = 'block';
+  // document.querySelector('menu_text').style.display = 'block';
 }
 
 document.getElementById('menu_open').onclick = e => {

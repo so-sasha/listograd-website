@@ -109,6 +109,11 @@ a:hover {
   top: 95vh;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 375px) {
 
 }

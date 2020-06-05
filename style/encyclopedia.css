@@ -1,7 +1,6 @@
 body {
   background-color: #EAD0A1;
   color: #31373C;
-  overflow-y: hidden;
 }
 
 a {
@@ -38,7 +37,7 @@ a:hover {
 }
 
 .menu_text {
-  display: none;
+  opacity: 0;
   background-color: rgba(201, 140, 111, 0.9);
   font-family: 'Prata';
   font-size: 22px;
@@ -47,35 +46,34 @@ a:hover {
   padding-bottom: 3vh;
 }
 
-.story {
-  font-family: 'Rubik';
-  font-size: 14px;
-  text-align: left;
-  line-height: 22px;
+.left {
+  opacity: 0;
+  z-index: 1;
+  width: 30vw;
+  height: 67vh;
+  background: red;
   position: absolute;
-  top: 35vh;
+  top: 15vh;
+}
+
+.right {
+  display: none;
+  z-index: 1;
+  width: 30vw;
+  height: 67vh;
+  background: red;
+  position: absolute;
+  top: 15vh;
+  left: 60vw;
+}
+
+.no1 {
+  position: absolute;
+  top: 15vh;
   left: 10vw;
 
 }
 
-#tree {
-  z-index: -1;
-  width: 300vw;
-  position: absolute;
-  top: -2vh;
-  left: 50vw;
-}
-
-#flower {
-  z-index: -1;
-  width: 40vw;
-  position: absolute;
-  top: 75vh;
-}
-
-#cloud {
-  z-index: -1;
-  width: 50vw;
-  position: absolute;
-
+#no1 {
+  width: 80vw;
 }
