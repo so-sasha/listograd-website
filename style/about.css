@@ -1,7 +1,27 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik&display=swap');
+
 body {
   background-color: #EAD0A1;
   color: #31373C;
-  overflow-y: hidden;
+}
+
+footer {
+  background-color: rgba(201, 140, 111, 0.9);
+  width: 400%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 750px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+p {
+  width: 294px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
 }
 
 a {
@@ -13,69 +33,145 @@ a:hover {
   text-decoration: line-through;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+header {
   padding: 13px;
 }
 
-#menu {
-  position: sticky;
-}
-
-.menu_open {
-  background-color: rgba(201, 140, 111, 0.9);
-  display: flex;
-
-}
-
-#menu_open {
-  position: sticky;
+.header__nav__menu {
   display: none;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.menu_text {
-  display: none;
+  position: absolute;
   background-color: rgba(201, 140, 111, 0.9);
-  font-family: 'Prata';
+  width: 100%;
+  padding: 60px 150px 20px 24px;
+  margin: -45px 0px 0px -20px;
+  font-family: 'Prata', serif;
   font-size: 22px;
   line-height: 37px;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  z-index: -1;
 }
 
-.story {
-  font-family: 'Rubik';
-  font-size: 14px;
-  text-align: left;
-  line-height: 22px;
-  position: absolute;
-  top: 35vh;
-  left: 10vw;
+.header__nav__menu.is-open {
+  display: block;
+}
 
+#header__nav__burger-btn {
+  background-image: url('../img/menu.svg');
+  width: 39px;
+  height: 31px;
+  z-index: 1;
+}
+
+#header__nav__burger-btn.is-open {
+  background-image: url('../img/menu_open.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.wrapper {
+  overflow-x: visible;
+}
+
+#about {
+  text-decoration: line-through;
+}
+
+.fix {
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: -2;
+}
+
+#plane {
+  position: absolute;
+  left: 30vw;
+  top: 48vh;
+}
+
+#address {
+  padding: 0px -30px 0px -30px;
+}
+
+#instagram {
+  padding: 0px 10px 0px 10px;
+}
+
+#telegram {
+  padding: 0px 10px 0px 10px;
+}
+
+
+.story {
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  text-align: left;
+  line-height: 35px;
+  position: absolute;
+  top: 26vh;
+  left: 8vw;
+  z-index: -3;
 }
 
 #tree {
-  z-index: -1;
+  z-index: -3;
   width: 300vw;
   position: absolute;
   top: -2vh;
-  left: 50vw;
+  left: 80vw;
 }
 
 #flower {
-  z-index: -1;
+  z-index: -3;
   width: 40vw;
   position: absolute;
-  top: 75vh;
+  top: 85vh;
 }
 
 #cloud {
-  z-index: -1;
+  z-index: -3;
   width: 50vw;
   position: absolute;
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1680px) {
+
+}
+
+@media screen and (max-width: 1920px) {
 
 }

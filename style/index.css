@@ -6,15 +6,12 @@ body {
   color: #31373C;
 }
 
-.wrapper {
-  overflow-x: visible;
-}
-
-
 footer {
   background-color: rgba(201, 140, 111, 0.9);
+  width: 250%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   margin: 73px 0px 0px 0px;
   padding: 20px 0px 20px 0px;
 }
@@ -71,6 +68,10 @@ header {
   z-index: 1;
 }
 
+.wrapper {
+  overflow-x: visible;
+}
+
 #map {
   text-decoration: line-through;
 }
@@ -123,6 +124,18 @@ header {
   position: absolute;
   left: 50vw;
   top: 95vh;
+}
+
+#address {
+  padding: 0px -30px 0px -30px;
+}
+
+#instagram {
+  padding: 0px 10px 0px 10px;
+}
+
+#telegram {
+  padding: 0px 10px 0px 10px;
 }
 
 @media screen and (max-width: 375px) {
