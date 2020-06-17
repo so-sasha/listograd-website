@@ -8,11 +8,11 @@ body {
 
 footer {
   background-color: rgba(201, 140, 111, 0.9);
-  width: 250%;
+  width: 400%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 73px 0px 0px 0px;
+  margin: 750px 0px 0px 0px;
   padding: 20px 0px 20px 0px;
 }
 
@@ -30,6 +30,7 @@ a {
 }
 
 a:hover {
+  color: #31373C;
   text-decoration: line-through;
 }
 
@@ -46,7 +47,7 @@ nav {
   position: absolute;
   background-color: rgba(201, 140, 111, 0.9);
   width: 100%;
-  padding: 60px 145px 20px 24px;
+  padding: 60px 180px 20px 24px;
   margin: -45px 0px 0px -20px;
   font-family: 'Prata', serif;
   font-size: 22px;
@@ -76,7 +77,7 @@ nav {
   overflow-x: visible;
 }
 
-#map {
+#events {
   text-decoration: line-through;
 }
 
@@ -93,87 +94,25 @@ nav {
 }
 
 .text {
-  padding: 40px 0px 40px 0px;
-}
-
-.tree {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  margin: 40px 0px 40px 0px;
 }
 
-#tree {
-  width: 250vw;
+.carousel-inner {
+  margin: 30px 0px 0px 10px;
+  z-index: -3;
 }
 
-#plane {
-  position: absolute;
-  left: 30vw;
-  top: 48vh;
+.pages {
+  width: 230px !important;
+  height: 350px !important;
 }
 
-#fern_shrub {
-  position: absolute;
-  left: 120vw;
-  top: 50vh;
-}
-
-#leaf_phisalis {
-  position: absolute;
-  left: 130vw;
-  top: 80vh;
-}
-
-#monstera {
-  position: absolute;
-  left: 50vw;
-  top: 95vh;
-}
-
-#address {
-  padding: 0px -30px 0px -30px;
-}
-
-#instagram {
-  padding: 0px 10px 0px 10px;
-}
-
-#telegram {
-  padding: 0px 10px 0px 10px;
-}
-
-@media screen and (max-width: 375px) {
-
-}
-
-@media screen and (max-width: 414px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 1366px) {
-
-}
-
-@media screen and (max-width: 1440px) {
-
-}
-
-@media screen and (max-width: 1680px) {
-
-}
-
-@media screen and (max-width: 1920px) {
-
+.flex {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: -30px 0px 0px 35px;
 }

@@ -38,6 +38,10 @@ header {
   padding: 13px;
 }
 
+nav {
+  width: 160px;
+}
+
 .header__nav__menu {
   display: none;
   position: absolute;
@@ -73,7 +77,7 @@ header {
   overflow-x: visible;
 }
 
-#about {
+#encyclopedia {
   text-decoration: line-through;
 }
 
@@ -89,31 +93,8 @@ header {
   z-index: -2;
 }
 
-.left {
-  opacity: 0;
-  z-index: 1;
-  width: 30vw;
-  height: 67vh;
-  background: red;
-  position: absolute;
-  top: 15vh;
-}
+.carousel {
 
-.right {
-  display: none;
-  z-index: 1;
-  width: 30vw;
-  height: 67vh;
-  background: red;
-  position: absolute;
-  top: 15vh;
-  left: 60vw;
-}
-
-.no1 {
-  position: absolute;
-  top: 15vh;
-  left: 10vw;
 }
 
 .carousel-inner {

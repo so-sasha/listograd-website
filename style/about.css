@@ -37,6 +37,10 @@ header {
   padding: 13px;
 }
 
+nav {
+  width: 160px;
+}
+
 .header__nav__menu {
   display: none;
   position: absolute;
