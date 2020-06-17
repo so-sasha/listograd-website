@@ -116,10 +116,11 @@ header {
 
 }
 
-#no1, #no2 {
-  width: 50% !important;
+.carousel-inner {
+  margin-left: 10px;
 }
 
-/* #no2 {
-  width: 10vw !important;
-} */
+.pages {
+  width: 300px !important;
+  height: 500px !important;
+}
