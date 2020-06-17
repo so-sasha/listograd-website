@@ -12,15 +12,15 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 750px 0px 0px 0px;
+  margin: 550px 0px 0px 0px;
   padding: 20px 0px 20px 0px;
 }
 
 p {
-  width: 294px;
+  width: 250px;
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 25px;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ header {
   position: absolute;
   background-color: rgba(201, 140, 111, 0.9);
   width: 100%;
-  padding: 60px 150px 20px 24px;
+  padding: 60px 145px 20px 24px;
   margin: -45px 0px 0px -20px;
   font-family: 'Prata', serif;
   font-size: 22px;
@@ -109,9 +109,7 @@ header {
 
 .story {
   font-family: 'Rubik', sans-serif;
-  font-size: 22px;
   text-align: left;
-  line-height: 35px;
   position: absolute;
   top: 26vh;
   left: 8vw;
@@ -130,7 +128,8 @@ header {
   z-index: -3;
   width: 40vw;
   position: absolute;
-  top: 85vh;
+  top: 65vh;
+  left: 10vw;
 }
 
 #cloud {
