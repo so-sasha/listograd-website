@@ -1,6 +1,27 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik&display=swap');
+
 body {
   background-color: #EAD0A1;
   color: #31373C;
+}
+
+footer {
+  background-color: rgba(201, 140, 111, 0.9);
+  width: 400%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 750px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+p {
+  width: 294px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
 }
 
 a {
@@ -12,38 +33,59 @@ a:hover {
   text-decoration: line-through;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+header {
   padding: 13px;
 }
 
-#menu {
-  position: sticky;
-}
-
-.menu_open {
-  background-color: rgba(201, 140, 111, 0.9);
-  display: flex;
-
-}
-
-#menu_open {
-  position: sticky;
+.header__nav__menu {
   display: none;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.menu_text {
-  opacity: 0;
+  position: absolute;
   background-color: rgba(201, 140, 111, 0.9);
-  font-family: 'Prata';
+  width: 100%;
+  padding: 60px 150px 20px 24px;
+  margin: -45px 0px 0px -20px;
+  font-family: 'Prata', serif;
   font-size: 22px;
   line-height: 37px;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  z-index: -1;
+}
+
+.header__nav__menu.is-open {
+  display: block;
+}
+
+#header__nav__burger-btn {
+  background-image: url('../img/menu.svg');
+  width: 39px;
+  height: 31px;
+  z-index: 1;
+}
+
+#header__nav__burger-btn.is-open {
+  background-image: url('../img/menu_open.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.wrapper {
+  overflow-x: visible;
+}
+
+#about {
+  text-decoration: line-through;
+}
+
+.fix {
+  position: fixed;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: -2;
 }
 
 .left {
@@ -74,6 +116,10 @@ a:hover {
 
 }
 
-#no1 {
-  width: 80vw;
+#no1, #no2 {
+  width: 50% !important;
 }
+
+/* #no2 {
+  width: 10vw !important;
+} */
