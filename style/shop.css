@@ -12,7 +12,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 750px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   padding: 20px 0px 20px 0px;
 }
 
@@ -22,7 +22,6 @@ p {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  z-index: -3;
 }
 
 a {
@@ -75,7 +74,7 @@ nav {
 }
 
 .wrapper {
-  overflow-x: visible;
+  overflow-x: hidden;
 }
 
 #shop {
@@ -94,12 +93,15 @@ nav {
   justify-content: space-between;
 }
 
+#text {
+  z-index: -3;
+}
+
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px 0px 40px 0px;
-  z-index: -3;
 }
 
 .items {
@@ -139,6 +141,7 @@ nav {
   display: none;
 }
 
-.highlight:hover {
-  display: block;
+#instagram {
+  margin-left: -35px;
+  padding-right: 10px;
 }

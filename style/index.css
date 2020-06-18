@@ -106,28 +106,42 @@ nav {
   width: 250vw;
 }
 
+.plane_group {
+
+}
+
 #plane {
   position: absolute;
   left: 30vw;
   top: 48vh;
+  animation: move 5s infinite ease-in-out;
+}
+
+#plane_text {
+  display: none;
+  width: 180px;
+  height: 90px;
+  position: absolute;
+  bottom: 300px;
+  /* animation: move 5s infinite ease-in-out; */
 }
 
 #fern_shrub {
   position: absolute;
-  left: 120vw;
-  top: 50vh;
+  left: 125vw;
+  top: 55vh;
 }
 
 #leaf_phisalis {
   position: absolute;
   left: 130vw;
-  top: 80vh;
+  top: 90vh;
 }
 
 #monstera {
   position: absolute;
   left: 50vw;
-  top: 95vh;
+  top: 103vh;
 }
 
 #address {
@@ -140,6 +154,18 @@ nav {
 
 #telegram {
   padding: 0px 10px 0px 10px;
+}
+
+@keyframes move {
+0% {
+transform: translateX(0px);
+}
+50% {
+transform: translateX(-70px);
+}
+100% {
+transform: translateX(0px);
+}
 }
 
 @media screen and (max-width: 375px) {
