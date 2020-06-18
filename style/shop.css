@@ -22,6 +22,7 @@ p {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+  z-index: -3;
 }
 
 a {
@@ -77,8 +78,13 @@ nav {
   overflow-x: visible;
 }
 
-#encyclopedia {
+#shop {
   text-decoration: line-through;
+}
+
+#logo {
+  z-index: -3;
+  margin-top: -30px;
 }
 
 .logo {
@@ -86,7 +92,6 @@ nav {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  z-index: -2;
 }
 
 .text {
@@ -94,6 +99,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 40px 0px 40px 0px;
+  z-index: -3;
 }
 
 .items {
@@ -107,17 +113,26 @@ nav {
   width: 300px;
   height: 300px;
   margin-bottom: 20px;
+  z-index: -3;
 }
 
 #poster_hover {
   width: 300px;
   height: 300px;
   margin-bottom: 20px;
+  z-index: -3;
 }
 
 #guide {
   width: 200px;
   height: 200px;
+  z-index: -3;
+}
+
+#guide_hover {
+  width: 200px;
+  height: 200px;
+  z-index: -3;
 }
 
 .highlight {
