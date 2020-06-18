@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik&display=swap');
 
 body {
-  max-height: 300px;
   background-color: #EAD0A1;
   color: #31373C;
 }
@@ -11,7 +10,7 @@ footer {
   background-color: rgba(201, 140, 111, 0.9);
   width: 250%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 73px 0px 0px 0px;
   padding: 20px 0px 20px 0px;
@@ -36,10 +35,6 @@ a:hover {
 
 header {
   padding: 13px;
-}
-
-nav {
-  /* width: 160px; */
 }
 
 .header__nav__menu {
@@ -81,6 +76,10 @@ nav {
   text-decoration: line-through;
 }
 
+.main {
+  z-index: -4;
+}
+
 .fix {
   position: fixed;
 }
@@ -97,18 +96,8 @@ nav {
   padding: 40px 0px 40px 0px;
 }
 
-.tree {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 #tree {
   width: 250vw;
-}
-
-.plane_group {
-
 }
 
 #plane {
@@ -195,7 +184,7 @@ transform: translateX(0px);
 }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
 
 }
 
@@ -229,4 +218,4 @@ transform: translateX(0px);
 
 @media screen and (max-width: 1920px) {
 
-}
+} */
