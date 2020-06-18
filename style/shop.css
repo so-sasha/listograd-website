@@ -81,10 +81,6 @@ nav {
   text-decoration: line-through;
 }
 
-.fix {
-  position: fixed;
-}
-
 .logo {
   display: flex;
   flex-direction: column;
@@ -100,17 +96,34 @@ nav {
   margin: 40px 0px 40px 0px;
 }
 
-.carousel {
-
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.carousel-inner {
-  margin: 30px 0px 0px 10px;
-  z-index: -3;
+#poster {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
-.pages {
-  margin: 0px 0px 0px 25px;
-  width: 250px !important;
-  height: 370px !important;
+#poster_hover {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+#guide {
+  width: 200px;
+  height: 200px;
+}
+
+.highlight {
+  display: none;
+}
+
+.highlight:hover {
+  display: block;
 }
