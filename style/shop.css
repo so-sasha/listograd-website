@@ -119,6 +119,7 @@ nav {
 }
 
 #poster_hover {
+  display: none;
   width: 300px;
   height: 300px;
   margin-bottom: 20px;
@@ -132,14 +133,15 @@ nav {
 }
 
 #guide_hover {
+  display: none;
   width: 200px;
   height: 200px;
   z-index: -3;
 }
 
-.highlight {
+/* .highlight {
   display: none;
-}
+} */
 
 #instagram {
   margin-left: -35px;
